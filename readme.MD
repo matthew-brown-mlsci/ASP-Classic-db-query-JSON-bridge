@@ -1,5 +1,5 @@
 ' This bit of ASP classic accepts HTTP POST requests, looks for the "sql" parameter, and
-executes the SQL statement against a static defined database.  Databases connections are setup
+executes the SQL statement against a static defined database.  Database connections are setup
 on the windows server as ODBC system DSN's.  This code accesses those DSN's, and returns
 a JSON compliant return that can be parsed via regular javascript JSON methods.
 
